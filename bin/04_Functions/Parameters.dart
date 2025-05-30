@@ -1,12 +1,12 @@
 void main(){
-  Map<String,String> studentMap = createStudentMapWithPositionalParameter(1,"Meghsham", 15, "A", 79.42);
+  Map<String,String> studentMap = createStudentMapWithPositionalParameter(1,"Otto", 15, "A", 79.42);
   print("Student Map: ${studentMap}");
 
-  Map<String,String> studentMap2 = createStudentMapWithNamedParameter(rollNo: 2, standard: 14, name: "Ankita", division: "B");
+  Map<String,String> studentMap2 = createStudentMapWithNamedParameter(rollNo: 2, standard: 14, name: "Anita", division: "B");
   print("Student Map: ${studentMap2}");
 
   // Map<String,String> studentMap3 = createStudentMapWithRequiredParameter(rollNo: 3, division: "B"); // Error: Required named parameter 'name' must be provided.
-  Map<String,String> studentMap3 = createStudentMapWithRequiredParameter(rollNo: 3, name: "Asif", division: "B");
+  Map<String,String> studentMap3 = createStudentMapWithRequiredParameter(rollNo: 3, name: "Atif", division: "B");
   print("Student Map: ${studentMap3}");
 
   Map<String,String> studentMap4 = createStudentMapWithDefaultParameter();

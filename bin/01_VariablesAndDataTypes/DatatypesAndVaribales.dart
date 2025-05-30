@@ -10,7 +10,7 @@ void main(){
 
   //String and Characters
 
-  String str = "Meghsham";
+  String str = "Krish";
   String char = "A";
 
   print("Both shring and characters are stored with data type String only line => $str $char");
@@ -33,9 +33,9 @@ void main(){
  //Maps
 
   Map<String, double> studentMarks = {
-    "Meghsham" : 76.00,
-    "Ankita" : 92.48,
-    "Asif" : 87.64,
+    "Mangesh" : 76.00,
+    "Anita" : 92.48,
+    "Nandini" : 87.64,
   };
   print("Map of Studends is $studentMarks");
 
@@ -45,7 +45,7 @@ void main(){
 
   print("The box has the data $box of type ${box.runtimeType}");
 
-  box = "meghsham";
+  box = "Mangesh";
 
   print("The box has the data $box of type ${box.runtimeType}");
 
